@@ -2,3 +2,12 @@
 Notes
 installing the packge pip install face-recognition
 
+Code Example avalable in jupyter-notebook "Prediction" 
+the video //IMG_5926.MOV has the the face_recognition
+the code is provided in jupyter-notebook "Video"
+
+above are the basic programs used to show the work of the library
+here is official library site more information will be provided there
+https://face-recognition.readthedocs.io/en/latest/readme.html 
+
+More updates on related project i will post here!!
