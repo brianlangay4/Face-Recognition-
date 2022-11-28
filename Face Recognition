@@ -10,4 +10,24 @@ above are the basic programs used to show the work of the library
 here is official library site more information will be provided there
 https://face-recognition.readthedocs.io/en/latest/readme.html 
 
+To getting started and using the models function i have uploaded a terminal and commands you can try with your own datasets 
+
+To perform predictions 
+#path 1 = the path to your known images //images that you want to be recognised
+#path 2 = the path file that has images to compare to
+
+face_recognition path1 path2        //prediction
+
+face_recognition --show-distance true path1 path2    //getting the value  of the recognised image
+
+face_recognition --tolerance 0.50 path1 path2      //to increase the models accuracy in facial features learned to be compared that the values lower than 0.6 will give out better output
+
+face_recognition --cus 5  path1 path2         // increasing the processing speed of the model
+
+You can now start to enjoy some of the amaizing feature that this model provide 
+Following along to see more things that the model can do with the help of other libraries to do more things 
+
+Example a video is uploaded that shows processing a video in real time via webcam . is available  in this repo as 'IMG_5926.MOV' an example of the model functionality 
+with opencv 
+
 More updates on related project i will post here!!
